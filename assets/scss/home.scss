@@ -1,0 +1,65 @@
+section:nth-child(even){
+    background-color: rgb(240, 240, 240)
+}
+
+.design-photo{
+    background-image: url('/images/sun-tornado.svg');
+    /* background by SVGBackgrounds.com */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >img{
+        border-radius: 50%;
+        margin-top: 2rem;
+    }
+    >h3{
+        color: white;
+    }
+}
+
+.coding-profiles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    >div{
+        padding: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >img{
+            border-radius: 1rem;
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 768px){
+    // .leetcode-profile>img{
+    //     transform: scale(0.7);
+    // }
+}
+
+@media screen and (max-width: 576px){
+    // .leetcode-profile>img{
+    //     transform: scale(0.5);
+    // }
+}
+
+@media screen and (max-width: 400px){
+    .name-portfolio{
+        font-size: 2.3rem;
+    }
+}

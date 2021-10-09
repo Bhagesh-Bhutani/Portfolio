@@ -1,0 +1,36 @@
+section:nth-child(even) {
+  background-color: #f0f0f0; }
+
+.design-photo {
+  background-image: url("/images/sun-tornado.svg");
+  /* background by SVGBackgrounds.com */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .design-photo > img {
+    border-radius: 50%;
+    margin-top: 2rem; }
+  .design-photo > h3 {
+    color: white; }
+
+.coding-profiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .coding-profiles > div {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .coding-profiles > div > img {
+      border-radius: 1rem;
+      max-width: 100%; }
+
+@media screen and (max-width: 400px) {
+  .name-portfolio {
+    font-size: 2.3rem; } }
