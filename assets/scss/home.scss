@@ -16,6 +16,7 @@ section:nth-child(even){
     >img{
         border-radius: 50%;
         margin-top: 2rem;
+        border: solid rgb(228, 228, 228) 3px;
     }
     >h3{
         color: white;
@@ -49,6 +50,57 @@ section:nth-child(even){
 
 .name-portfolio{
     margin: 1rem 0;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >div{
+        box-sizing: border-box;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >img{
+            border-radius: 1rem;
+        }
+    }
+    >h2{
+        margin: 1rem 0 0 0;
+    }
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    >a{
+        flex-shrink: 1;
+        margin: 1rem;
+    }
+}
+
+.section-title{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-radius: 3rem;
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+}
+
+.project-title{
+    margin-bottom: 1rem;
+}
+
+.sub-title{
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-radius: 3rem;
 }
 
 @media screen and (max-width: 1200px){
