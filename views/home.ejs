@@ -1,20 +1,16 @@
 <link rel="stylesheet" href = "/css/home.css">
 
 <section class = "design-photo">
-    <img src = "/images/Photo.jpg" alt = "" data-aos = "flip-up" data-aos-easing="ease-out-cubic" data-aos-duration = "1500">
-    <h3 class = "name-portfolio" data-aos = "fade-right" data-aos-easing="ease-out-cubic" data-aos-duration = "1500">Bhagesh Bhutani</h3>
+    <img src = "/images/Photo.jpg" alt = "" data-aos = "flip-up" data-aos-easing="ease-out-cubic" data-aos-duration = "800">
+    <h3 class = "name-portfolio" data-aos = "fade-right" data-aos-easing="ease-out-cubic" data-aos-duration = "800">Bhagesh Bhutani</h3>
 </section>
 
-<section class = "coding-profiles">
-    <div>
-        <h4>Data Structures and Algorithms</h4>
-    </div>
-    <div class = "codechef-profile" data-aos = "fade-left" data-aos-easing="ease-out-cubic" data-aos-duration = "500">
-        <img src = "/images/codechef-image.png" alt="">
-    </div>
-    <div class = "leetcode-profile" data-aos = "fade-right" data-aos-easing="ease-out-cubic" data-aos-duration = "500">
-        <img src = "/images/leetcode-image.png" alt = "">
-    </div>
+<section id = "coding-profiles" class = "coding-profiles">
+    <%- include('_coding_profiles') %> 
+</section>
+
+<section id = "experience">
+    <%- include('_timeline_experience') %> 
 </section>
 
 

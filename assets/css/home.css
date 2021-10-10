@@ -6,6 +6,7 @@ section:nth-child(even) {
   /* background by SVGBackgrounds.com */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
   height: auto;
   width: 100%;
   display: flex;
@@ -22,7 +23,8 @@ section:nth-child(even) {
   flex-direction: column;
   justify-content: space-around; }
   .coding-profiles > div {
-    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -30,6 +32,12 @@ section:nth-child(even) {
     .coding-profiles > div > img {
       border-radius: 1rem;
       max-width: 100%; }
+
+.github-profile > img {
+  width: 10rem; }
+
+.name-portfolio {
+  margin: 1rem 0; }
 
 @media screen and (max-width: 400px) {
   .name-portfolio {
