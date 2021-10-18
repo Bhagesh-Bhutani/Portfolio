@@ -15,6 +15,7 @@ section:nth-child(even) {
   .design-photo > img {
     border-radius: 50%;
     margin-top: 2rem;
+    height: 60%;
     border: solid #e4e4e4 3px;
     box-shadow: 0 0 30px rgba(226, 226, 226, 0.815); }
   .design-photo > h3 {
